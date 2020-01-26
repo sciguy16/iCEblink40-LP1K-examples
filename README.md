@@ -11,6 +11,7 @@ This is a simple example program for the Lattice iCE40-LP1K written in Verilog a
 
 # Examples
 * counter: Binary counter on the 4 LEDs
+* pwm: 26 kHz, 5-bit PWM ramp on an LED
 
 # Usage
 * Build the toolchain from source - I had problems using slightly older versions which were resolved by building them afresh
