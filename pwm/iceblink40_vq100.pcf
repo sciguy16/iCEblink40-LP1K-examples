@@ -5,3 +5,5 @@ set_io --warn-no-port LED1 A29
 set_io --warn-no-port LED2 B20
 set_io --warn-no-port LED3 B19
 set_io --warn-no-port LED4 A25
+set_io PWM_DBG B26
+set_io TRIG B35

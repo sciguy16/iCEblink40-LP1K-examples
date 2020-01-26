@@ -1,6 +1,8 @@
 module pwm (
 	input CLK_3p33MHZ,
 	output CLK_26kHz_out,
+	output PWM_DBG,
+	output TRIG,
 	output LED1,
 	output LED2,
 	output LED3,
@@ -44,6 +46,8 @@ module pwm (
 	assign CLK_26kHz_out = CLK_26kHz;
 	assign LED1 = pwm_div[11];
 	assign LED2 = led_out;
+	assign PWM_DBG = led_out;
+	assign TRIG = pwm_counter[4];
 
 	endmodule
 
