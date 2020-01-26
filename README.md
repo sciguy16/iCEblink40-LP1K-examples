@@ -1,4 +1,4 @@
-# LED binary counter example for the iCEblink40-LP1K evaluation board
+# Simple example Verilog code for the iCEblink40-LP1K evaluation board
 
 This is a simple example program for the Lattice iCE40-LP1K written in Verilog and built using the open source toolchain.
 
